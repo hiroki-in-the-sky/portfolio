@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/move.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="openbtn"><span></span><span></span><span></span></div>
+      <nav id="g-nav">
+        <div id="g-nav-list">
+          <!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+          <ul>
+            <li><a href="#about">about me</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="circle-bg"></div>
+    <header class="header">
+      <h1 class="header-logo">
+        <img src="image/logo.png" alt="My-Portfolio" />
+      </h1>
+      <nav>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="#about">about me</a>
+          </li>
+          <li class="header-item">
+            <a href="#skills">skills</a>
+          </li>
+          <li class="header-item">
+            <a href="#works">works</a>
+          </li>
+          <li class="header-item">
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="about" id="about">
+        <!-- <h2 class="cmn-title">
+          <span class="sub-title">about</span>
+          <span class="main-title">私について</span>
+        </h2> -->
+
+        <div class="about-wrapper">
+          <div>
+            <img
+              src="image/environmental-protection-326923_960_720.jpg"
+              alt="私について"
+            />
+          </div>
+
+          <h3 class="about-subtitie">about me</h3>
+          <div class="about-text">
+            <p class="greeting-desc">
+              ご訪問いただきありがとうございます。WEBデザイナーとして活動しております加藤と申します。<br />
+              お客様とのコミュニケーションを大切にし、1つ1つの案件を丁寧に制作いたします。
+            </p>
+
+            <div class="about-career">
+              <ul class="career-list">
+                <li class="career-item">・1975年生まれ、三重県出身</li>
+                <li class="career-item">・2022年5月 WEBデザインの学習を開始</li>
+                <!-- <li class="career-item">・2023年5月 WEBサイトの初案件獲得</li> -->
+                <li class="career-item">・現在はWEBデザイナーとして活動中</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <h3 class="about-subtitie">works</h3>
+        <div class="works_flex">
+          <div class="works_hp">
+            <a href="https://hiroki-in-the-sky.github.io/kawara/"
+              ><img src="image/1.png" alt="瓦屋サイト"
+            /></a>
+            <h3 class="works_text">瓦屋ホームページ(模写)</h3>
+          </div>
+          <div class="works_hp">
+            <a href="https://hiroki-in-the-sky.github.io/Englishclass/"
+              ><img src="image/2.png" alt="英会話サイト"
+            /></a>
+            <h3 class="works_text">英会話スクールホームページ(模写)</h3>
+          </div>
+          <div class="works_hp">
+            <a href="https://hiroki-in-the-sky.github.io/timepreak/"
+              ><img src="image/3.png" alt="timepreaktimepreak"
+            /></a>
+            <h3 class="works_text">時計オークションホームページ(模写)</h3>
+          </div>
+        </div>
+      </section>
+      <h3 class="about-subtitie">skills</h3>
+      <section class="skills" id="skills">
+        <div class="skills_icon">
+          <img src="image/logo-html.png" alt="" />
+          <h3 class="skills_text">html</h3>
+        </div>
+        <div class="skills_icon">
+          <img src="image/logo-css.png" alt="" />
+          <h3 class="skills_text">css</h3>
+        </div>
+
+        <div class="skills_icon">
+          <img src="image/logo-javascript.png" alt="" />
+          <h3 class="skills_text">javascript</h3>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h3 class="about-subtitie">contact</h3>
+        <a href="https://forms.gle/pb6r6AuQFwCBGpwG8" class="contact_text">お問い合わせはこちら</a>
+        </section>
+    </main>
+
+    <p class="copyright">&copy 2023 My-Portfolio All Rights Reserved.</p>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!--自作のJS-->
+    <script src="js/move.js"></script>
+  </body>
+</html>
